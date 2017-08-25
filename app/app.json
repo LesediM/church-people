@@ -1,0 +1,32 @@
+{
+    "connectionString": "",
+    "connectionStringDebug": "",
+    "title": [
+        "Mr",
+        "Miss",
+        "Mrs",
+        "Dr",
+        "Other"
+    ],
+    "employmentStatus": [
+        "Employed",
+        "Self Employed",
+        "UnEmployed"
+    ],
+    "membershipStatus": [
+        "New",
+        "Visitor",
+        "New Convert",
+        "Full Member"
+    ],
+    "maritalStatus": [
+        "Single",
+        "Married",
+        "Widowed",
+        "Divorced"
+    ],
+    "gender": [
+        "Male",
+        "Female"
+    ]
+}

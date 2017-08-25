@@ -1,0 +1,23 @@
+{
+    "name": "church-people",
+    "version": "1.0.0",
+    "description": "KwaMashu Christian Center Database",
+    "main": "main.js",
+    "scripts": {
+        "test": "mocha ./test/**/*.spec.js",
+        "debug": "electron .",
+        "package": "electron-packager ./ church-people --platform=win32 --arch=ia32 --electronVersion=1.6.11 --overwrite=true",
+        "createInstaller": "node ../msi-generator.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bootstrap": "^4.0.0-alpha.6",
+        "jquery": "^3.2.1",
+        "mongodb": "^2.2.29",
+        "sweetalert2": "^6.6.6"
+    },
+    "devDependencies": {
+        "electron-winstaller": "^2.6.3"
+    }
+}

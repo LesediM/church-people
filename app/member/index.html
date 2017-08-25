@@ -1,0 +1,34 @@
+<html>
+
+<head>
+    <script>
+        var path = require("path");
+        var basePath = path.dirname(__dirname);
+
+        var bootstrapPath = path.join(basePath, "node_modules", "bootstrap", "dist", "css", "bootstrap.min.css");
+        var bootstrapLink = document.createElement("link")
+        bootstrapLink.setAttribute("rel", "stylesheet");
+        bootstrapLink.setAttribute("href", bootstrapPath);
+        document.head.appendChild(bootstrapLink);
+
+        var sweetAlertPath = path.join(basePath, "node_modules", "sweetalert2", "dist", "sweetalert2.min.css");
+        var sweetAlertLink = document.createElement("link")
+        sweetAlertLink.setAttribute("rel", "stylesheet");
+        sweetAlertLink.setAttribute("href", sweetAlertPath);
+        document.head.appendChild(sweetAlertLink);
+
+        var indexLink = document.createElement("link")
+        indexLink.setAttribute("rel", "stylesheet");
+        indexLink.setAttribute("href", "index.css");
+        document.head.appendChild(indexLink);
+        require("./index");
+    </script>
+</head>
+
+<body>
+    <div class="container">
+
+    </div>
+</body>
+
+</html>
